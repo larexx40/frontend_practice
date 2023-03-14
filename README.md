@@ -13,5 +13,5 @@ Thanks for checking out this front-end coding challenge.
 
 The challenge is to build out landing pages and make the design look as close to the design as possible.
 
-## Task 1
-Flyo landing page
+## Tasks
+1. Flyo landing page

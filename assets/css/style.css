@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;500;600;700&display=swap');
+body{
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+}
+.header img{
+    height: 40px;
+}
+.generalLink a{
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.generalLink a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.banner{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.banner img{
+    height: 100%;
+    width: 50%;
+}
+.banner h3{
+    padding: 0px 250px;
+}
+.waveImage{
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.waveImage p{
+    padding: 30px 400px 0px 400px;
+}
+
+.waveImage button{
+    border-radius: 50px;
+    border: none;
+    padding: 10px 65px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: hsl(198, 60%, 50%);
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+.waveImage button:hover{
+    color: #FFF;
+    background-color: hsl(176, 68%, 64%)
+}
+.main_files{
+    background-color: hsl(218, 28%, 13%);
+}
+.files{
+    margin: 0px 160px;
+}
+.content{
+    padding: 0px 90px 50px 90px;
+}
+.content p{
+    font-size: 12px;
+}
+
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    /* border: 2px solid yellow; */
+    padding: 40px 30px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 10px;
+}  
+
+/* flex-child
+    margin-right: 30px; */
+
+
+
+
+.testimonies img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.middle_file{
+    padding: 0px 90px 50px 90px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+footer{
+    padding: 40px 40px;
+}
+
+.socialMedia img{
+    height: 15px;
+    padding-bottom: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+.overFlow{
+    margin:80px 10px -140px 10px;
+    padding:20px 30px;
+    background-color:hsl(217, 28%, 15%);
+}
+.overFlow button{
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 12px;
+}
+.overFlow button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+.mailBox{
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 10px;
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .middle_file {
+        padding: 0px 20px 50px 20px;
+    }
+
+    .Productive{
+        margin-bottom: 110px;
+    }
+    .Productive a{
+        color: hsl(176, 68%, 64%);
+        border-bottom: 1px solid hsl(176, 68%, 64%)
+    }
+    .testimonies .flex-child{
+        margin-bottom: 30px;
+        padding: 20px;
+
+    }
+
+    .footerContent{
+        margin-bottom: 30px;
+    }
+
+    .socialMedia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    body{
+        padding: 40px 0px 0px 0px;
+    }
+    .header img{
+        height: 25px;
+    }
+    .link a{
+        font-size: 16px;
+    }
+    .banner img{
+        height: 100%;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .banner h3{
+        padding: 0px 0px;
+    }
+    .waveImage{
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .waveImage p{
+        padding: 3px 30px;
+    }
+
+    .files{
+        margin: 80px 0px;
+    }
+    .content{
+        padding: 50px 20px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+
+    
+}
