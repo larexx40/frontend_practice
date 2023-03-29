@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;500;600;700&display=swap'); */
+body{
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.login{
+    background-color: #FFF;
+    color: #394CFE;
+    padding: 8px 25px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #394CFE;
+}
+
+.createAcount{
+    padding: 8px 25px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #394CFE;
+    color: #FFF;
+    background-color: #394CFE; 
+}
+
+.body_content{
+}
+
+.header img{
+    height: 40px;
+}
+
+.Navbar {
+    background-color: #46ACC2;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .nav-link {
+    padding-right: 8px;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+
+  .provide{
+    padding-top: 160px;
+  }
+
+  .appCard{
+    background-color: #394CFE;
+    border-radius: 10px;
+    padding: 50px 0px;
+  }
+
+  .footer{
+    color: white;
+    background-color: black;
+  }
+  
+@media only screen and (max-width: 768px) {
+  .appCard{
+    margin-top: 100px;
+  }
+    .provide{
+        padding-top: 20px;
+    }
+
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
