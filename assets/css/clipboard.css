@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap');
+body{
+    background-color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+.headerimage{
+    background-image: url(../images/clipboard/bg-header-desktop.png);
+    background-size: cover
+}
+
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsl(201, 11%, 66%);
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px hsl(201, 11%, 66%);
+}
+
+.ios, .mac {
+    border: 1px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+
+
+/* for small screen phone screen */
+@media only screen and (max-width: 600) {
+    .headerimage{
+        background-image: url(../images/clipboard/bg-header-mobile.png);
+    } 
+    
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+
+} */
+
+
