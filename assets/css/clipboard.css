@@ -10,6 +10,9 @@ body{
     background-size: cover
 }
 
+p{ 
+    color: hsl(201, 11%, 66%);;
+}
 
 .mac {
     background-color: hsl(233, 100%, 69%);
@@ -33,6 +36,10 @@ body{
     width: 50%;
     /* border: 3px solid green; */
     padding: 10px;
+}
+
+.footer{
+    background-color: #F5F6F8;
 }
 
 
